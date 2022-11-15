@@ -1,0 +1,4 @@
+- 👋 Hi, I’m @AysegulUyr
+- 👀 I’m interested in ICT
+- 🌱 I'm studying electronics-ICT
+- 📫 How to reach me uyarr.aysegul@gmail.com
