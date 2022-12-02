@@ -1,0 +1,112 @@
+/* GENERAL */
+
+html {
+    /* font wordt via inheritance toegepast op alle onderliggende elementen */
+    font-family: 'Roboto', sans-serif;
+    background-color: #f1efec;
+    color: #111;
+ }
+ body {
+    /* default browserstyles geven een marge aan je body --> override, op 0 plaatsen */
+    margin: 0;
+ }
+ *, *::before, *::after {
+    /* zie theorie box model */
+    box-sizing: border-box;
+ }
+ 
+ /* HELPER CLASSES */
+ 
+ .container {
+    margin: 0 auto;
+    padding: 0 1rem;
+    max-width: 1280px;
+    align-items: center;
+ }
+ 
+ /* HEADER */
+ 
+ header .container {
+    display: flex;
+    justify-content: space-between;
+    
+ 
+ }
+ 
+.foto {
+    display:inline;
+    text-align: center;
+    float: left;
+}
+
+ nav ul {
+    list-style: none;
+    display: flex;
+    
+    
+ }
+ 
+ button {
+    
+    display: inline;
+    border-bottom: 1px;
+    border: 15px solid black;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+ }
+ 
+ nav ul li a{
+    display: inline-block;
+    border-bottom: 1px;
+    border: 15px solid black;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+ }
+
+ a:hover{
+    color: black;
+    background-color: white;
+ }
+ 
+ .logo{
+    text-decoration: none;
+    color: black;
+ }
+
+
+ footer {
+   position: fixed;
+   bottom: 0;
+   width: 100%;
+   height: 60px;   /* Height of the footer */
+   background: black;
+   color: white;
+ }
+ 
+ footer a{
+    margin: 10px ;
+    display: inline-block;
+    float: left;
+    
+}
+
+ div img{
+    position: relative;
+    left: 80px;
+ }
+
+ div h1 {
+    position: relative;
+    left: 150px;
+    font-size: 20px;
+ }
+ div p {
+    position: relative;
+    left: 150px;
+    font-size: 10px;
+ }
+
+
+ 
