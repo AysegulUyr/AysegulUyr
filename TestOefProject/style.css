@@ -2,21 +2,82 @@
     box-sizing: border-box;
 }
 html {
-    background-color: var(--white);
-    font-family: sans-serif;
     font-size: 1rem;
     color: black;
-    width: 100%;
-    
+    font-family: 'Roboto', sans-serif;
+    font-size: 62.5%;
 }
 p { 
-    color :black
+    color :black;
+    margin: 1rem;
 }
+/*
 header {
-    border: 1rem solid black;
+    margin-bottom: 2rem;
+    width: 100%;
+    height: 4rem;
+    top: 0;
+   background-color: rgb(251, 250, 249);
+    /*border: 1rem solid black;
+    border-bottom: 1px solid #000000;
+    position:sticky;
 }
+*/
+header{
+    overflow: hidden;
+    font-size: 2rem;
+    background-color: rgb(251, 250, 249);
+    color: black;
+    width: 100%;
+    display: flex;
+    text-align: center;
+    margin: auto;
+    top: 0;
+    position: sticky;
+    border-bottom: 2px solid black;
+    margin-bottom: 2rem;
+ 
+ 
+  }
+  header nav{
+    display: flex;
+    margin-left: 5.5rem
+ }
+  header nav a{
+    text-decoration: none;
+    color: inherit;
+  }
+  header nav ul{
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    text-decoration: none;
+    align-items: center;
+ 
+ 
+ }
+  header nav ul li {
+    list-style: none;
+    padding: 0 1rem 0 1rem;
+    margin: 3rem;
+  }
+  header nav ul li a{
+    padding: 1rem;
+    list-style:none;
+    color: inherit;
+    border-radius: 1rem;
+ }
+ 
+  
+ header nav ul li a:hover,header nav ul li a:focus {
+    transition: 0.7s ease-out;
+    color: #fff;
+    background-color: rgb(0, 0, 0);
+ }
 body {
     margin: 0;
+    background-color: rgb(251, 250, 249);
+    font-size: 1.6rem;
 }
 body a {
     text-decoration: none;
@@ -26,16 +87,19 @@ body a {
     display: flex;
     width: 100%;
     height: 30rem;
-    border: 1rem solid red;
+   /* border: 1rem solid red;*/
 }
 .container  {
+    overflow: hidden;
+    margin: 2rem;
     width: 34%;
     flex-direction:row ;
-    border: 1rem solid blue;
+   /* border: 1rem solid blue;*/
+   border-bottom: 2px solid black;
 }
 .halfContainer {
     height: 13rem;
-    border:1rem solid rgb(225, 255, 0) ;
+   /* border:1rem solid rgb(225, 255, 0) ;*/
 }
 .halfContainer img {
     height: 10rem;
@@ -45,7 +109,7 @@ body a {
 }
 .tweeContainerGroot {
     height: 20rem;
-    border:1rem solid rgb(255, 0, 174) ;
+   /* border:1rem solid rgb(255, 0, 174) ;*/
 }
 .tweeContainerGroot img {
     height: 10rem;
@@ -54,18 +118,37 @@ body a {
     align-items: center;
 }
 .tweeContainerKlein {
-    border:1rem solid rgb(184, 125, 23) ;
+   /* border:1rem solid rgb(184, 125, 23) ;*/
     height: 7rem;
 }
 .drieContainer {
+    overflow: hidden;
+    border-bottom: 2px solid black;
     height: 9rem;
-    border:1rem solid rgb(9, 255, 0) ;
+   /* border:1rem solid rgb(9, 255, 0) ;*/
 }
 .containerBig {
     width: 66%;
     flex-direction:row ;
-    border: 1rem solid rgb(216, 134, 18);
+   /* border: 1rem solid rgb(216, 134, 18); */
 }
 footer {
-    border: 1rem solid black;
-}
+    position: sticky;
+    bottom: 0;
+    width: 100%;
+    height: 60px;   /* Height of the footer */
+    background: black;
+    color: white;
+  }
+  footer p {
+    display: inline-block;
+    color: #fff;
+    margin-left: 35%;
+    margin-right: 35%;
+  }
+  
+  footer a{
+     margin: 10px ;
+     display: inline-block;
+ }
+ 
