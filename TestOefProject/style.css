@@ -31,6 +31,7 @@ header{
     width: 100%;
     display: flex;
     text-align: center;
+    flex-direction: row;
     margin: auto;
     top: 0;
     position: sticky;
@@ -41,6 +42,7 @@ header{
   }
   header nav{
     display: flex;
+  
     margin-left: 5.5rem
  }
   header nav a{
@@ -67,17 +69,21 @@ header{
     color: inherit;
     border-radius: 1rem;
  }
- 
-  
  header nav ul li a:hover,header nav ul li a:focus {
     transition: 0.7s ease-out;
     color: #fff;
     background-color: rgb(0, 0, 0);
  }
+ 
 body {
     margin: 0;
     background-color: rgb(251, 250, 249);
     font-size: 1.6rem;
+}
+main {
+    margin-left: 5rem;
+    margin-right: 5rem;
+    overflow:hidden ;
 }
 body a {
     text-decoration: none;
@@ -133,6 +139,8 @@ body a {
    /* border: 1rem solid rgb(216, 134, 18); */
 }
 footer {
+    margin-top: 5rem;
+    display: flex;
     position: sticky;
     bottom: 0;
     width: 100%;
@@ -143,10 +151,10 @@ footer {
   footer p {
     display: inline-block;
     color: #fff;
-    margin-left: 35%;
-    margin-right: 35%;
+    margin-left: auto;
+    margin-right: auto;
   }
-  
+
   footer a{
      margin: 10px ;
      display: inline-block;
