@@ -137,17 +137,26 @@ body a {
 
 
 footer {
-    position: absolute;
-        bottom: 0;
-        width: 100%;
-        text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #32CD32;
+  color: white;
+  text-align: center;
+position: sticky;
 }
 
+footer a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
+}
 
-
-
-
-
-
-
- 
+@media (max-width: 600px) {
+  footer {
+    flex-direction: column;
+  }
+}
