@@ -154,9 +154,30 @@ footer {
     margin-left: auto;
     margin-right: auto;
   }
-
+  .picE {
+    display: flex;
+    margin-right: auto;
+    margin-left: 0;
+    width: 33%;
+  }
+ .pic   {
+    display: flex;
+    margin-right: 0;
+    margin-left: auto;
+    width: 33%;
+ }
   footer a{
-     margin: 10px ;
+     margin-top: 10px ;
      display: inline-block;
+     margin-left: auto;
+     margin-right: 1rem;
+    align-items: flex-end;
+     
+ }
+ #twitter {
+margin: 1rem;
+ }
+ #facebook {
+    margin: 1rem;
  }
  
