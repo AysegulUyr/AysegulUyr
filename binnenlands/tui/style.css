@@ -1,0 +1,186 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+html {
+  font-size: 1rem;
+  color: black;
+  font-family: 'Roboto', sans-serif;
+  font-size: 62.5%;
+}
+p { 
+  color :black;
+  margin: 1rem;
+}
+
+@media only screen and (max-width: 600px) {
+div {
+  width: 100%;
+  float: none;
+}
+}
+
+header{
+  overflow: hidden;
+  font-size: 2rem;
+  background-color: #F5130A;
+  color: black;
+  width: 100%;
+  display: flex;
+  text-align: center;
+  margin: auto;
+  top: 0;
+  position: sticky;
+  border-bottom: 2px solid black;
+  
+
+
+}
+header nav{
+  display: flex;
+  margin-left: 5.5rem
+}
+
+header nav a{
+  text-decoration: none;
+  color: inherit;
+}
+
+header img{
+  width: 15rem;
+  margin-top: 1rem;
+  margin-left: 1rem;
+  
+}
+header nav ul{
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+  text-decoration: none;
+  align-items: center;
+
+
+}
+header nav ul li {
+  list-style: none;
+  padding: 0 1rem 0 1rem;
+  margin: 3rem;
+}
+header nav ul li a{
+  padding: 1rem;
+  list-style:none;
+  color: inherit;
+  border-radius: 1rem;
+}
+
+
+header nav ul li a:hover,header nav ul li a:focus {
+  transition: 0.7s ease-out;
+  color: #fff;
+  background-color: black;
+}
+
+.binnenlands{
+transition: 0.7s ease-out;
+  color: #fff;
+  background-color: black;
+}
+
+body {
+  margin: 0;
+  background-color: #fff;
+  font-size: 1.6rem;
+}
+body a {
+  text-decoration: none;
+  color: black
+}
+
+
+.image{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.centreer {
+text-align: center;
+font-size: 3rem;
+margin-bottom: 3rem;
+margin-left: 3rem;
+margin-right: 3rem;
+}
+
+
+.div1-3 {
+width: 25%;
+float: left;
+text-align: center;
+}
+
+/* Style the middle div */
+.div2 {
+width: 50%;
+float: left;
+text-align:left;
+background-color: #fff;
+box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.tekst {
+  margin-left: 3rem;
+  margin-bottom: 3rem;
+  margin-right: 3rem;
+}
+
+.inleiding{
+  font-style: italic;
+  font-weight: bold ;
+  margin-left: 5rem;
+  margin-right: 5rem;
+}
+
+footer {
+  margin-top: 0rem;
+  display: flex;
+  position: sticky;
+  bottom: 0;
+  width: 100%;
+  height: 60px;   /* Height of the footer */
+  background: #F5130A;
+  color: white;
+}
+footer p {
+  display: inline-block;
+  color: black;
+  margin-left: auto;
+  margin-right: auto;
+}
+.picE {
+  display: flex;
+  margin-right: auto;
+  margin-left: 0;
+  width: 33%;
+}
+.pic   {
+  display: flex;
+  margin-right: 0;
+  margin-left: auto;
+  width: 33%;
+}
+footer a{
+   margin-top: 10px ;
+   display: inline-block;
+   margin-left: auto;
+   margin-right: 1rem;
+  align-items: flex-end;
+   
+}
+#twitter {
+margin: 1rem;
+}
+#facebook {
+  margin: 1rem;
+}
